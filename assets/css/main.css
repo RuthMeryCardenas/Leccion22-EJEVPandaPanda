@@ -2,24 +2,73 @@
   margin: 0;
   font-family: helvetica;
   font-size: 14px;
+  color: rgb(231, 189, 76);
 }
 
-nav {
-  position: fixed;
-  width: 100%;
+header, .mb-buttton {
   background-color: rgb(202, 60, 37);
 }
 
-li {
+header {
+  height: 56px;
+}
+
+.mc-section, #navigation-menu {
+  left: 10%;
+  width: 80%;
+}
+
+/*Menú de Navegación*/
+#navigation-menu {
+  z-index: 1000;
+  position: fixed;
+}
+
+#navigation-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navigation-menu  li {
   display: inline-block;
   padding: 20px 10px;
-  list-style: none;
-  /*background-color: green;*/
 }
-a {
-  color: rgb(231, 189, 76);
-  /*background-color: white;*/
-}
-a:hover {
+
+#navigation-menu a:hover {
   color: rgb(255, 255, 255);
+}
+/*Contenedor Principal*/
+.main-container {
+  background-color: rgb(29, 26, 5);
+}
+
+.mc-section{
+  position: relative;
+}
+
+/*Galería de Imágenes*/
+#gallery {
+
+}
+
+#gallery .g-image {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  margin: 15px 0 30px 15px;
+  filter: grayscale(100%);
+  border: gray 5px solid;
+}
+
+/*Menú de Botones*/
+#menu-button{
+  text-align: center;
+}
+
+.mb-buttton {
+  width: 32%;
+  margin: 0 2.5px;
+  border: 0;
+  border-radius: 0.25em;
+  padding: 5px 2.5px;
 }
