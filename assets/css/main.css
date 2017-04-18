@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  font-family: helvetica;
+  font-size: 14px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(202, 60, 37);
+}
+
+li {
+  display: inline-block;
+  padding: 20px 10px;
+  list-style: none;
+  /*background-color: green;*/
+}
+a {
+  color: rgb(231, 189, 76);
+  /*background-color: white;*/
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
