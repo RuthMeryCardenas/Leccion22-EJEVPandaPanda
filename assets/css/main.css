@@ -62,13 +62,30 @@ header, .main-container {
 
 }
 
-#gallery .g-image {
+#gallery .content-image {
   box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  margin: 80px 0 40px 15px;
+  border: gray 5px solid;
+}
+
+#gallery .g-image {
   width: 200px;
   height: 200px;
-  margin: 80px 0 40px 15px;
   filter: grayscale(100%);
-  border: gray 5px solid;
+}
+
+#gallery .delete-image {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 0;
+  background: none;
+  color: rgb(215, 215, 215);
+  font-weight: bold;
 }
 
 /*Menú de Botones*/
